@@ -1,3 +1,4 @@
+
 --Total number of listings available?
 
 select count(*) as Total_Listing from ABNYData_clean
