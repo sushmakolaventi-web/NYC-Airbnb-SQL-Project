@@ -1,9 +1,10 @@
-# NYC-Airbnb-SQL-Project
+**NYC-Airbnb-SQL-Project**
 SQL analysis of NYC Airbnb dataset to uncover pricing and demand trends
-# NYC Airbnb Data Analysis using SQL
 
-##  Project Overview
-This project analyzes Airbnb listings in New York City using SQL to uncover insights related to pricing, demand, and availability.
+**NYC Airbnb Data Analysis using SQL**
+
+**Project Overview**
+This project performs SQL-based analysis on NYC Airbnb data to uncover insights related to pricing trends, customer demand, and listing availability. The goal is to identify patterns that can help hosts optimize pricing and improve listing performance.
 
 ---
 
@@ -17,6 +18,14 @@ To analyze Airbnb data and identify trends in pricing, customer demand, and list
 - Reviews dataset: Contains review counts and activity
 
 ---
+**Business Questions**
+
+- Which neighborhoods have the highest and lowest prices?
+- Which room types are most common and most profitable?
+- Do cheaper listings receive more reviews (higher demand)?
+- How does availability impact booking demand?
+- Which listings generate the highest estimated revenue?
+---
 
  **Data Cleaning**
 - Removed null and zero prices
@@ -28,7 +37,7 @@ To analyze Airbnb data and identify trends in pricing, customer demand, and list
 
 **Exploratory Data Analysis (EDA)**
 
-## Key Questions:
+**Key Questions**
 - Which neighborhoods are most expensive?
 - Which room types are most common?
 - How does price impact demand?
@@ -36,28 +45,38 @@ To analyze Airbnb data and identify trends in pricing, customer demand, and list
 
 ---
 
-## Key Insights
+**Key Insights**
 
-- Manhattan has the highest average price, indicating a premium rental market
-- Budget listings receive more reviews, showing higher demand
-- Entire homes generate higher revenue compared to shared spaces
-- High availability listings often indicate lower demand
+- Manhattan has the highest average price, indicating a premium rental market driven by high demand and central location advantages.
+- Budget listings receive more reviews, suggesting higher booking frequency and stronger demand for affordable stays.
+- Entire home/apartment listings generate higher estimated revenue compared to shared or private rooms.
+- Listings with high availability often indicate lower demand or reduced booking frequency.
 
 ---
 
-## Tools Used
+**Tools Used**
 - SQL Server
 - SSMS
 
 ---
+**SQL Skills Demonstrated**
 
-## Project Structure
+- Data cleaning (handling null values, duplicates, and outliers)
+- Joins (combining listings and reviews tables)
+- Aggregations (AVG, COUNT, SUM)
+- GROUP BY and filtering
+- CASE statements for price segmentation
+
+**Project Structure**
 
 01_data_cleaning.sql  
 02_eda.sql  
 
 ---
 
-## Conclusion
-This analysis provides insights into Airbnb market trends and helps identify high-demand and high-revenue opportunities.
+**Conclusion**
+This analysis helps identify:
+- High-demand price ranges for Airbnb listings
+- Profitable neighborhoods for investment
+- Pricing strategies to maximize bookings
 
